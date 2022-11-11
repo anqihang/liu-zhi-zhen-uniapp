@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.red {
+  color: red;
+}
+.custom-class {
+  padding: 0 !important;
+}
+.van-nav-bar {
+  padding: 0 !important;
+}
+.rightIcon {
+  height: 100%;
+  width: 40rpx;
+}
+.rightIcon image {
+  width: 100%;
+  height: 100%;
+}
+.screen {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 25rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.screen .title {
+  display: flex;
+  flex-direction: column;
+  margin: 40rpx 40rpx 0;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.screen .title .f {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.screen .title .f .name {
+  font-size: 25rpx;
+}
+.screen .title .f .change {
+  color: #0081fd;
+}
+.screen .title .s {
+  display: flex;
+  margin-top: 3rpx;
+}
+.screen .title .s view {
+  padding: 2rpx 6rpx;
+  background-color: #e6e6e6;
+  margin-right: 6rpx;
+}
+.screen .title .t {
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+}
+.screen .title .t view {
+  color: #c1c1c1;
+}
+.screen .title .t view:nth-child(even) {
+  width: 0;
+  height: 10rpx;
+  border-right: 1px solid gray;
+  margin: 0 7rpx;
+}
+.screen .scroll {
+  flex: 1;
+  margin: 17rpx 40rpx;
+  overflow: hidden;
+}
+.screen .scroll .scroll-y {
+  height: 700rpx;
+  overflow: hidden;
+}
+.screen .scroll .scroll-y .piece {
+  height: 80rpx;
+  background-color: #f7f7f7;
+  border-radius: 7rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rpx;
+  margin-bottom: 10rpx;
+}
+.screen .scroll .scroll-y .piece .date {
+  display: flex;
+}
+.screen .scroll .scroll-y .piece .date .f {
+  margin-right: 5rpx;
+}
+.screen .scroll .scroll-y .piece .temperature .tem {
+  font-size: 40rpx;
+}
+

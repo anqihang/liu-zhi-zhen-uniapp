@@ -1,0 +1,1 @@
+<view style="box-sizing:border-box;display:flex;flex-direction:column;height:100vh;position:relative;border-top:15rpx solid #919191;background-color:#f2f2f2;"><van-nav-bar vue-id="ce9a8ac0-1" title="扫码" left-arrow="{{true}}" data-event-opts="{{[['^clickLeft',[['toHome']]]]}}" data-com-type="wx" bind:clickLeft="__e" bind:__l="__l"></van-nav-bar></view>
