@@ -237,6 +237,8 @@
 				width: 400rpx;
 				height:40rpx;
 				color:#ffffff;
+				line-height: 40rpx;
+				border-radius: 5rpx;
 				text-align: center;
 			}
 			
